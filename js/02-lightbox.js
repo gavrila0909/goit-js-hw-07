@@ -2,7 +2,7 @@ import { galleryItems } from './gallery-items.js';
 // Change code below this line
 
 import SimpleLightbox from "simplelightbox";
-//import "simpleLightbox/dist/simple-lightbox.min.css";
+
 const galleryContainer = document.querySelector(".gallery");
 const createGalleryItems = galleryItems 
     .map(({original, preview, description}) => 
